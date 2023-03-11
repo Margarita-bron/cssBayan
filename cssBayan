@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Bayan</title>
+</head>
+<body>
+    <h1>PROGA Bayan</h1>
+    <span class="line"></span>
+
+    <button class="accordion">Начинай с малого</button>
+        <div class="panel">
+        <img src="https://memesmix.net/media/created/gjpjyj.jpg" width="" height="" alt="мем">
+        </div>
+
+    <button class="accordion">Работает - не трогай</button>
+        <div class="panel">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnGfX0ecoJURs2ux2CcEHxRFz4Hq8oxH9zg&usqp=CAU" width="" height="" alt="мем">
+        </div>
+
+    <button class="accordion">Не берись за все сразу</button>
+        <div class="panel">
+        <img src="https://kartinkof.club/uploads/posts/2022-03/1648691763_1-kartinkof-club-p-kartinki-smeshnie-programmist-1.jpg" width="" height="" alt="мем">
+        </div>
+
+    <button class="accordion">Принимай все её недостатки</button>
+        <div class="panel">
+        <img src="https://skillbox.ru/upload/setka_images/14055326052022_0ed1686442ac630326a48ddcef43684fa02b904b.jpg" width="" height="" alt="мем">
+        </div>
+
+    <button class="accordion">Лень-друг программиста</button>
+        <div class="panel">
+        <img src="https://pbs.twimg.com/media/D7LJeJPX4AU0oHk.jpg" width="" height="" alt="мем">
+        </div>
+
+
+</body>
+</html>
