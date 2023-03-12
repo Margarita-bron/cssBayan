@@ -24,7 +24,7 @@
             <input type="checkbox" class="sent-input" name="sent_2" id="sent_2">
             <label class="sent-title" for="sent_2">Работает - не трогай</label>
             <div class="sent-img">
-                <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnGfX0ecoJURs2ux2CcEHxRFz4Hq8oxH9zg&usqp=CAU" alt="мем">
+                <img class="img" src="https://sun9-41.userapi.com/impf/c849520/v849520787/f1f4e/o3SmxXHRVXE.jpg?size=510x354&quality=96&sign=84a120d194ad95d0e03f766010e7f483&type=album" alt="мем">
             </div>
         </div>
         <div class ="sent-item">
@@ -49,6 +49,6 @@
             </div>
         </div>
     </div>
-    </div>
+    </>
 </body>
 </html>
