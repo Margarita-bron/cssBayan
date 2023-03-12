@@ -12,47 +12,42 @@
     <span class="line"></span>
 
     <div class="accordion">
-        <div class ="accordion-item">
-            <label class="accordion-title" for="pq_1">Начинай с малого</label>
-            <input type="radio" class="accordion-input" name="pq" id="pq_1">
-            <div class="pq-img">
-                <img src="https://memesmix.net/media/created/gjpjyj.jpg" width="" height="" alt="мем">
+        <div class ="sent-item">
+            <input type="checkbox" class="sent-input" name="sent_1" id="sent_1">
+            <label class="sent-title" for="sent_1">Начинай с малого</label>
+            <div class="sent-img">
+                <img class="img" src="https://memesmix.net/media/created/gjpjyj.jpg" alt="мем">
             </div>
         </div>
-        <div class ="accordion-item">
-            <label class="accordion-title" for="pq_1">Работает - не трогай</label>
-            <input type="radio" class="accordion-input" name="pq" id="pq_1">
-            <div class="pq-img">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnGfX0ecoJURs2ux2CcEHxRFz4Hq8oxH9zg&usqp=CAU" width="" height="" alt="мем">
+        <div class ="sent-item">
+            <input type="checkbox" class="sent-input" name="sent_2" id="sent_2">
+            <label class="sent-title" for="sent_2">Работает - не трогай</label>
+            <div class="sent-img">
+                <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnGfX0ecoJURs2ux2CcEHxRFz4Hq8oxH9zg&usqp=CAU" alt="мем">
+            </div>
+        </div>
+        <div class ="sent-item">
+            <input type="checkbox" class="sent-input" name="sent_3" id="sent_3">
+            <label class="sent-title" for="sent_3">Не берись за все сразу</label>
+            <div class="sent-img">
+                <img class="img" src="https://kartinkof.club/uploads/posts/2022-03/1648691763_1-kartinkof-club-p-kartinki-smeshnie-programmist-1.jpg" alt="мем">
+            </div>
+        </div>
+        <div class ="sent-item">
+            <input type="checkbox" class="sent-input" name="sent_4" id="sent_4">
+            <label class="sent-title" for="sent_4">Принимай все её недостатки</label>
+            <div class="sent-img">
+                <img class="img" src="https://skillbox.ru/upload/setka_images/14055326052022_0ed1686442ac630326a48ddcef43684fa02b904b.jpg" alt="мем">
+            </div>
+        </div>
+        <div class ="sent-item">
+            <input type="checkbox" class="sent-input" name="sent_5" id="sent_5">
+            <label class="sent-title" for="sent_5">Лень - друг программиста</label>
+            <div class="sent-img">
+                <img class="img" src="https://pbs.twimg.com/media/D7LJeJPX4AU0oHk.jpg" alt="мем">
             </div>
         </div>
     </div>
 
-    <button class="accordion">Начинай с малого
-        <div class="panel">
-        <img src="https://memesmix.net/media/created/gjpjyj.jpg" width="" height="" alt="мем">
-        </div></button>
-
-    <button class="accordion">Работает - не трогай</button>
-        <div class="panel">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXnGfX0ecoJURs2ux2CcEHxRFz4Hq8oxH9zg&usqp=CAU" width="" height="" alt="мем">
-        </div>
-
-    <button class="accordion">Не берись за все сразу</button>
-        <div class="panel">
-        <img src="https://kartinkof.club/uploads/posts/2022-03/1648691763_1-kartinkof-club-p-kartinki-smeshnie-programmist-1.jpg" width="" height="" alt="мем">
-        </div>
-
-    <button class="accordion">Принимай все её недостатки</button>
-        <div class="panel">
-        <img src="https://skillbox.ru/upload/setka_images/14055326052022_0ed1686442ac630326a48ddcef43684fa02b904b.jpg" width="" height="" alt="мем">
-        </div>
-
-    <button class="accordion">Лень-друг программиста</button>
-        <div class="panel">
-        <img src="https://pbs.twimg.com/media/D7LJeJPX4AU0oHk.jpg" width="" height="" alt="мем">
-        </div>
-
 </body>
 </html>
-
