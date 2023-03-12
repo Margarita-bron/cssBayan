@@ -8,6 +8,7 @@
     <title>CSS Bayan</title>
 </head>
 <body>
+    <div class="wrapper">
     <h1>PROGA Bayan</h1>
     <span class="line"></span>
 
@@ -48,6 +49,6 @@
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 </html>
