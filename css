@@ -1,0 +1,190 @@
+body{
+    background: #F1F1F2;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1440pt;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 14%;
+    color:#1995AD;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.accordion {
+    background-color: #11ffee00;
+
+    padding: 1%;
+    margin: 0 auto;
+    width: 75%;
+    text-align: left;
+    border:none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+*,
+*:before,
+*:after{    
+     box-sizing: border-box;
+}
+
+.sent-item{
+    border-top: 0.1em solid #A1D6E2;
+    padding: 0.5em;
+}
+
+.sent-title{
+    font-weight: 700;
+    font-size: 15pt;
+    padding: 7.5pt 0;
+    position: relative;
+    color:#6eace6;
+
+    display: block; /*изначально label строчный*/
+    transition: color .3s ease-out;
+}
+
+.img{
+    width: 30em;
+    margin-left: 20%;
+}
+
+.sent-img{
+    display: none;
+    margin-top: 2%;
+    animation: 1.5s show ease;
+}
+
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.accordion:hover .sent-title{
+    color: #1995AD;
+}
+
+.sent-input{
+    width: 0;
+    height: 0;
+
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;/*выбиваем радиокнопку из потока*/
+}
+
+.sent-title:after{
+    content: "";
+    display: none;
+    top: 45%;
+    
+    left: 96%;
+    border-style: solid;
+    border-width: 7.5pt 5.625pt 0 5.625pt;
+    border-color: #1994ad transparent transparent transparent;
+
+    position: absolute;
+}
+
+.accordion:hover .sent-title:after{
+    display: block;
+}
+
+.sent-input:checked ~ .sent-title:after{
+    border-style: solid;
+    border-width: 0 5.625pt 7.5pt 5.625pt;
+    border-color: transparent transparent #1994ad transparent;
+}
+
+
+.sent-input:checked ~ .sent-img{
+    display: block;
+}
+
+.sent-input:hover ~ .sent-img{
+    display: block;
+}
+
+
+@media (max-width: 820px){
+    h1{
+        color: #5a559f;
+        font-size: 1.8em;
+    }
+
+    .sent-item{
+        border-top: 0.1em solid #000017; 
+    }
+
+    .sent-title{
+        color: #e9c1ff; 
+        font-size: 13.5pt;
+        padding: 6.75pt 0;
+    }
+
+    .img{
+        width: 15em;
+        margin-left: 15%;
+    }
+
+    .accordion:hover .sent-title{
+        color: #9b88f7; 
+    }
+
+    .sent-title:after{
+        border-color: #9b88f7 transparent transparent transparent;
+    }
+
+    .sent-input:checked ~ .sent-title:after{
+        border-color: transparent transparent #9b88f7 transparent;
+    }
+}
+
+@media (max-width: 320px) {
+    h1{
+        color:#ea7944;
+        font-size: 1.3em;
+    }
+
+    .sent-item{
+        border-top: 0.1em solid #121c07;
+    }
+
+    .sent-title{
+        color:#124724;
+        font-size: 9.75pt;
+        padding: 3.75pt 0;
+    }
+
+    .img{
+        width: 8em;
+        margin-left: 10%;
+    }
+
+    .accordion:hover .sent-title{
+        color:#efd163;
+    }
+
+    .sent-title:after{
+        border-color: #efd163 transparent transparent transparent;
+        border-width: 0.34375em 0.28125em 0 0.28125em;
+    }
+
+    .sent-input:checked ~ .sent-title:after{
+        border-color: transparent transparent #efd163 transparent;
+        border-width: 0 0.28125em 0.34375em 0.28125em;
+    }
+}
+
+
+
+
